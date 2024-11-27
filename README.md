@@ -36,7 +36,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### What I learned
 
-J'ai redecouver co,ent fontionne les grids. se qui m' s posé un peu de dificlté se aligné corectement les bloccs avec les grids. se code m"a bien aidé.
+I've rediscovered how grids work. what caused me a bit of trouble was aligning the blocks with the grids. this code helped me a lot.
 
 ```css
 .cards {
