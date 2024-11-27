@@ -20,7 +20,7 @@
   color: hsl(228, 45%, 44%);
 }
 
-.main {
+.container {
   height: fit-content;
   min-height: 100vh;
   width: 100%;
@@ -30,7 +30,7 @@
   justify-content: space-between;
   background-color: hsl(0, 0%, 98%);
 }
-.main .container {
+.container .main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,27 +38,27 @@
   height: 100%;
   justify-content: space-evenly;
 }
-.main .container .top {
+.container .main .top {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.main .container .top .title_1,
-.main .container .top .title_2 {
+.container .main .top .title_1,
+.container .main .top .title_2 {
   text-align: center;
   font-size: 25px;
 }
-.main .container .top .title_2 {
+.container .main .top .title_2 {
   font-weight: 200;
 }
-.main .container .top .title_1 {
+.container .main .top .title_1 {
   font-weight: 600;
 }
-.main .container .top .description {
+.container .main .top .description {
   text-align: center;
   margin: 15px;
 }
-.main .container .cards {
+.container .main .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -66,10 +66,10 @@
   gap: 15px;
   grid-template-areas: "card_1 card_2 card_4" "card_1 card_3 card_4";
 }
-.main .container .cards .card_1 {
+.container .main .cards .card_1 {
   grid-area: card_1;
 }
-.main .container .cards .card_1::before {
+.container .main .cards .card_1::before {
   content: "";
   width: 100%;
   height: 5px;
@@ -78,10 +78,10 @@
   top: 0;
   left: 0;
 }
-.main .container .cards .card_2 {
+.container .main .cards .card_2 {
   grid-area: card_2;
 }
-.main .container .cards .card_2::before {
+.container .main .cards .card_2::before {
   content: "";
   width: 100%;
   height: 5px;
@@ -90,10 +90,10 @@
   top: 0;
   left: 0;
 }
-.main .container .cards .card_3 {
+.container .main .cards .card_3 {
   grid-area: card_3;
 }
-.main .container .cards .card_3::before {
+.container .main .cards .card_3::before {
   content: "";
   width: 100%;
   height: 5px;
@@ -102,10 +102,10 @@
   top: 0;
   left: 0;
 }
-.main .container .cards .card_4 {
+.container .main .cards .card_4 {
   grid-area: card_4;
 }
-.main .container .cards .card_4::before {
+.container .main .cards .card_4::before {
   content: "";
   width: 100%;
   height: 5px;
@@ -114,7 +114,7 @@
   top: 0;
   left: 0;
 }
-.main .container .cards .card {
+.container .main .cards .card {
   position: relative;
   background-color: hsl(0, 0%, 98%);
   padding: 15px 35px;
@@ -129,20 +129,20 @@
   height: 250px;
   justify-content: space-around;
 }
-.main .container .cards .card .text {
+.container .main .cards .card .text {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.main .container .cards .card .text h3 {
+.container .main .cards .card .text h3 {
   font-weight: 600;
   font-size: 20px;
 }
-.main .container .cards .card .text p {
+.container .main .cards .card .text p {
   font-size: 14px;
   color: hsl(229, 6%, 66%);
 }
-.main .container .cards .card div {
+.container .main .cards .card div {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
